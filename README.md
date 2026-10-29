@@ -35,3 +35,10 @@ src/
 ## Da completare
 
 Cerca `TODO` e `[...]` nel codice: città, ruolo, foto, email, LinkedIn, "Chi sono" e "Cosa ho imparato".
+
+## Pubblicazione
+
+A ogni push su `main`, `.github/workflows/pages.yml` esegue i test, fa la build con base `/portfolio/` e pubblica su GitHub Pages: https://grillia.github.io/portfolio/
+
+Una volta sola, in **Settings → Pages**, imposta **Source: GitHub Actions**.
+`404.html` è una copia di `index.html`, così anche i link diretti (es. `/portfolio/progetti/traccia`) funzionano.
