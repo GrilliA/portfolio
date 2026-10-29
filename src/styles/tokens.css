@@ -1,0 +1,66 @@
+/*
+ * Palette ispirata a Sanzo Wada, "A Dictionary of Color Combinations" (anni '30).
+ * I valori sono un'interpretazione, scuriti dove serve per far leggere il testo.
+ * --accent, --second e --third cambiano con la combinazione scelta (usePalette).
+ */
+:root {
+  /* Pigmenti */
+  --shu: #b8371a;
+  --konjo: #1f3b5c;
+  --matsuba: #2f5d46;
+  --budo: #6b2d4f;
+  --gamboge: #e0a526;
+  --celadon: #9dbfa6;
+  --momo: #e9b8a0;
+
+  /* Combinazione attiva */
+  --accent: var(--shu);
+  --second: var(--konjo);
+  --third: var(--gamboge);
+
+  /* Carta e inchiostro */
+  --paper: #f2eadb;
+  --paper-deep: #e8dcc6;
+  --paper-light: #fbf5ec;
+  --paper-line: #cdbfa8;
+  --ink: #1f1a17;
+  --ink-soft: #4a423b;
+  --ink-muted: #5c534b;
+  --on-ink: #f2eadb;
+  --on-ink-muted: #c9beae;
+  --on-accent: #f7f1e6;
+
+  /* Tipografia */
+  --font-display: "Shippori Mincho B1", "Hiragino Mincho ProN", Georgia, serif;
+  --font-body: "Zen Kaku Gothic New", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.1875rem;
+  --text-xl: 1.25rem;
+  --text-h3: 2.25rem;
+  --text-h2: clamp(2rem, 1.6rem + 1.6vw, 3rem);
+  --text-display: clamp(2.6rem, 1.6rem + 3.4vw, 4.6rem);
+
+  /* Spazi */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: 6rem;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 22px;
+  --radius-pill: 999px;
+
+  --page-width: 72.5rem;
+  --prose-width: 47.5rem;
+
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
